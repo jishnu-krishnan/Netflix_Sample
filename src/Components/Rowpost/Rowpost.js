@@ -27,7 +27,7 @@ function Rowpost(props) {
             console.log(response.data.results)
             if(response.data.results.length!==0){
 
-                setYTid(response.data.results[1])
+                setYTid(response.data.results[0])
             }
         })
     }
